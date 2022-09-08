@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body class="page">
+    <!--шапка-->
+    <header class="page-header">
+      <div class="container main-nav">
+        <nav class="main-nav">
+          <a class="logo-link" href="/" lang="en">
+            <span class="logo-accent">Web</span>Studio
+          </a>
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link-current">Портфоліо</a>
+            </li>
+            <li class="item">
+              <a href="" class="link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="emailto:info@devstudio.com" class="link">
+              <svg class="icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">
+              <svg class="icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +380 96 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--main-->
+    <main>
+      <section class="portfolio section">
+        <div class="container">
+          <h1>Наши работы</h1>
+          <ul class="work list">
+            <li class="item">
+              <button class="button-type" type="button">Все</button>
+            </li>
+            <li class="item">
+              <button class="button-type" type="button">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button class="button-type" type="button">Додатки</button>
+            </li>
+            <li class="item">
+              <button class="button-type" type="button">Дизайн</button>
+            </li>
+            <li class="item">
+              <button class="button-type" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="work-list list">
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/technocrjak.jpg"
+                    alt="Работа с веб сайтами"
+                    width="370"
+                    height="294"
+                  />
+
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title">Технокряк</p>
+                  <p class="text">Веб-сайт</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/poster.jpg"
+                    alt="дизайн баннеров"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title">Постер New Orlean vs Golden Star</p>
+                  <p class="text">Дизайн</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/seafood.jpg"
+                    alt="разработка приложения для ресторана"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title">Ресторан Seafood</p>
+                  <p class="text">Додаток</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/primeproject.jpg"
+                    alt="Маркетинговый проект"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title">Проєкт Prime</p>
+                  <p class="text">Маркетинг</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/boxes.jpg"
+                    alt="разработка приложения"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title">Проєкт Boxes</p>
+                  <p class="text">Додаток</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/appproject.jpg"
+                    alt="разработка веб-сайта"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title" lang="en">Inspiration has no Borders</p>
+                  <p class="text">Веб-сайт</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/limiteded.jpg"
+                    alt="дизайн обложек книг"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title">Видання Limited Edition</p>
+                  <p class="text">Дизайн</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/projectlab.jpg"
+                    alt="маркетинговый проект"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title">Проєкт LAB</p>
+                  <p class="text">Маркетинг</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="item">
+              <figure>
+                <div class="work-thumb">
+                  <img
+                    class="picture"
+                    src="./images/businessapp.jpg"
+                    alt="приложение для бизнеса"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="work-lable">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <figcaption class="box">
+                  <p class="title" lang="en">Growing Business</p>
+                  <p class="text">Додаток</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="footer-site">
+      <div class="container main-footer">
+        <div class="footer-adress">
+          <a class="logo-link" href="/" lang="en">
+            <span class="logo-accent">Web</span>Studio
+          </a>
+          <address class="nav">
+            <ul class="list">
+              <li class="item">
+                <a
+                  href="https://goo.gl/maps/Bx3pmiVZrzGmQuvE9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="item">
+                <a href="mailto:info@example.com" class="link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social">
+          <p class="footer-text">Приєднуйтесь</p>
+          <ul class="footer-social list">
+            <li>
+              <a class="footer-thumb" href="#">
+                <svg class="footer-icon">
+                  <use
+                    href="./images/icons.svg#instagram"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-thumb" href="#">
+                <svg class="footer-icon">
+                  <use
+                    href="./images/icons.svg#twitter"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a class="footer-thumb" href="#">
+                <svg class="footer-icon">
+                  <use
+                    href="./images/icons.svg#facebook"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-thumb" href="#">
+                <svg class="footer-icon">
+                  <use
+                    href="./images/icons.svg#linkedin"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
