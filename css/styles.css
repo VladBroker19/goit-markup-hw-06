@@ -269,12 +269,11 @@ button {
   line-height: 1.15;
 }
 .form-group {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
-.form-lable {
+.form-label {
   display: flex;
   flex-direction: column;
   margin-bottom: 4px;
@@ -282,14 +281,14 @@ button {
   text-align: left;
 }
 .form-input {
-  /* position: relative;  */
+  position: relative;
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 14px 15px;
 }
 .icon-form {
-  /* position: absolute; */
+  position: absolute;
   top: 0px;
   left: 0px;
 }
