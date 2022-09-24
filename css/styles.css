@@ -255,6 +255,68 @@ button {
   border-radius: 50%;
   background-color: var(--white-color);
 }
+.form {
+  width: 528px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 41px;
+}
+.form-text {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: var(--title-text-color);
+  font-size: 20px;
+  line-height: 1.15;
+}
+.form-group {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form-lable {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+
+  text-align: left;
+}
+.form-input {
+  /* position: relative;  */
+  width: 448px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 14px 15px;
+}
+.icon-form {
+  /* position: absolute; */
+  top: 0px;
+  left: 0px;
+}
+.form-comment {
+  width: 448px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  resize: none;
+}
+.form-button {
+  display: inline-block;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 52px;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  background-color: rgba(24, 140, 232, 1);
+  color: #ffffff;
+  font-style: bold;
+  line-height: 1.9;
+}
+
 /* button */
 .button-main {
   display: inline-block;
@@ -629,6 +691,7 @@ button {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .footer-thumb {
   margin-top: 0;
   margin-right: 10px;
@@ -640,10 +703,54 @@ button {
   background-color: var(--footer-iconfon-color);
   transition: background-color 250ms var(--timing-function);
 }
+
 .footer-icon {
   fill: currentColor;
 }
 .footer-thumb:hover,
 .footer-thumb:focus {
   background-color: var(--accent-color);
+}
+.footer-form {
+  width: 570px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-lable {
+}
+.footer-input {
+  width: 358px;
+
+  padding: 15px 16px;
+  background-color: var(--footer-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.footer-button {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  cursor: pointer;
+
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.form-icon {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+  left: 148px;
 }

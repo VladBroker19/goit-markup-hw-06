@@ -74,6 +74,49 @@
             <button data-modal-close class="modal-close">
               <img src="./images/closebtn.jpg" alt="закрити" />
             </button>
+            <form class="form">
+              <b class="form-text">Залиште свої дані, ми вам передзвонимо </b>
+
+              <lable class="form-group">
+                <span class="form-lable">Ім'я</span>
+                <input type="name" class="form-input" name="name" autofocus />
+                <svg class="icon-form">
+                  <use
+                    href="./images/icons.svg#person"
+                    width="12"
+                    height="12"
+                  ></use>
+                </svg>
+              </lable>
+
+              <lable class="form-group"
+                ><span class="form-lable">Телефон</span>
+                <input type="tel" class="form-input" name="phone" />
+              </lable>
+              <lable class="form-group"
+                ><span class="form-lable">Пошта</span>
+                <input type="email" class="form-input" name="email" />
+              </lable>
+
+              <lable class="form-group">
+                <span class="form-lable">Коментар</span>
+                <textarea
+                  name="comment"
+                  class="form-comment"
+                  rows="8"
+                  placeholder="Введіть текст"
+                >
+                </textarea>
+              </lable>
+
+              <div class="form-group">
+                <lable class="form-checkbox">
+                  <input type="checkbox" name="policy" />
+                  Погоджуюся з розсилкою та приймаю Умови договору
+                </lable>
+              </div>
+              <button type="submit" class="form-button">Відправити</button>
+            </form>
           </div>
         </div>
       </section>
@@ -617,6 +660,28 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form">
+          <p class="footer-text">Підпишіться на розсилку</p>
+
+          <label class="footer-lable">
+            <input
+              type="email"
+              class="footer-input"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button type="submit" class="footer-button">
+            <span>Підписатися</span>
+            <svg class="form-icon">
+              <use
+                href="./images/icons.svg#iconsend"
+                width="24"
+                height="24"
+              ></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
