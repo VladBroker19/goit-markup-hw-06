@@ -269,10 +269,12 @@ button {
   line-height: 1.15;
 }
 .form-group {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
+
 .form-label {
   display: flex;
   flex-direction: column;
@@ -281,17 +283,29 @@ button {
   text-align: left;
 }
 .form-input {
-  position: relative;
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding: 14px 15px;
+  padding: 14px 42px;
+  appearance: none;
 }
 .icon-form {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  bottom: 13px;
+  left: 12px;
+  fill: red;
 }
+/* .form-input:focus {
+  color: #2196f3;
+} */
+/* .form-input:focus {
+  fill: #212121;
+} */
+
+/* .form-group:focus-within  {
+  color: #2196f3;
+ fill: #2196f3;
+} */
 .form-comment {
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
