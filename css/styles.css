@@ -302,10 +302,9 @@ button {
   fill: #212121;
 } */
 
-/* .form-group:focus-within  {
-  color: #2196f3;
- fill: #2196f3;
-} */
+.form-group:focus-within > .icon-form {
+  fill: #2196f3;
+}
 .form-comment {
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
