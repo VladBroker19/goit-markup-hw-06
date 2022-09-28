@@ -72,7 +72,9 @@
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button data-modal-close class="modal-close">
-              <img src="./images/closebtn.jpg" alt="закрити" />
+              <svg class="close-icon" width="18" height="18">
+                <use href="./images/icons.svg#close"></use>
+              </svg>
             </button>
             <form class="form">
               <b class="form-text">Залиште свої дані, ми вам передзвонимо </b>
@@ -111,12 +113,17 @@
                 </textarea>
               </label>
 
-              <div class="form-group">
-                <label class="form-checkbox">
-                  <input type="checkbox" name="policy" />
-                  Погоджуюся з розсилкою та приймаю Умови договору
-                </label>
-              </div>
+              <label class="label-checkbox">
+                <input class="checkbox" type="checkbox" name="policy" />
+                <svg class="checkbox-icon" width="11" height="8">
+                  <use href="./images/icons.svg#checkmark"></use>
+                </svg>
+
+                <span class="checkbox-text"
+                  >Погоджуюся з розсилкою та приймаю Умови договору</span
+                >
+              </label>
+
               <button type="submit" class="form-button">Відправити</button>
             </form>
           </div>
