@@ -281,6 +281,7 @@ button {
   padding: 40px 41px;
 }
 .form-text {
+  display: block;
   margin-top: 0;
   margin-bottom: 12px;
   color: var(--title-text-color);
@@ -295,14 +296,13 @@ button {
 }
 
 .form-label {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 4px;
-
+  font-style: 400px;
+  font-size: 12px;
+  line-height: 1.16;
   text-align: left;
 }
 .form-input {
-  width: 448px;
   border: 1px solid var(--input-border-color);
   border-radius: 4px;
   padding: 14px 42px;
@@ -343,7 +343,7 @@ button {
   align-items: center;
   margin-top: 0;
   margin-bottom: 30px;
-  margin-left: 11px;
+  justify-content: center;
 }
 .checkbox {
   -webkit-appearance: none;
@@ -368,6 +368,9 @@ button {
   font-size: 14px;
   line-height: 1.7;
 }
+.checkbox-link {
+  color: var(--accent-color);
+}
 .form-button {
   display: inline-block;
   width: 200px;
@@ -379,8 +382,7 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
   background-color: var(--accent-color);
-  color: #ffffff;
-  font-style: bold;
+  color: var(--white-color);
   line-height: 1.9;
 }
 
@@ -760,7 +762,7 @@ button {
 }
 
 .footer-thumb {
-  margin-top: 0;
+  margin-top: 0px;
   margin-right: 10px;
   display: inline-flex;
   width: 44px;
@@ -771,6 +773,9 @@ button {
   transition: background-color 250ms var(--timing-function);
 }
 
+.footer-thumb:last-child {
+  margin-left: 0;
+}
 .footer-icon {
   fill: currentColor;
 }
@@ -779,15 +784,14 @@ button {
   background-color: var(--accent-color);
 }
 .footer-form {
+  display: inline-block;
   width: 570px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 83px;
 }
-.footer-lable {
-}
+
 .footer-input {
   width: 358px;
-
+  color: var(--footer-text-color);
   padding: 15px 16px;
   background-color: var(--footer-background-color);
   border: 1px solid var(--footer-input-color);
